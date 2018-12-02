@@ -61,19 +61,25 @@ Fill out this template in place in the README of your own fork of the assignment
 
 ## 1. Project Title
 
-*How is your project/application called?*
+Multiplayer R.P.S.L.S.
 
 ## 2. Team
 
 *Who worked on this project/application?*
 
+Daniela Lujan, Katya Torres
+
 ## 3. Project Objective
 
 *Describe what you set out to achieve. What [micro:bit](https://microbit.org/) capabilities were necessary and/or useful for your implementation.*
 
+At the beginning we set out to achieve a two player rock, paper, scissor, lizard, and spock game but later we decided to make it multiplayer with an embedded score counter and the ability to talk. The [micro:bit](https://microbit.org/guide/features/) capabilities necessary for our implementation were the radio feature, the two programmable buttons, the 25 individually-programmable LEDs, the motion sensor and the pins for external connections.
+
 ## 4. Research
 
 *What sources did you consult (Web, instructor, etc)? Don't plagiarize; give credit where it's due!*
+
+Throughout the process of constructing the project my partner and I consulted the instructor, various internet sources, and the [BBC micropython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html). We consulted the instructor to help us correct some of our code and to ask questions regarding the project itself. We consulted multiple internet sources searching for ideas for the entire project. We found very advanced projects with step by step tutorials such as the [Flappy Bird Game](https://youtu.be/MO-2DiHDZvg) or [an arcade game](https://youtu.be/99Z4KU8yHyc) but we wanted to design a more original idea to get the most experience from the project. Finally, to implement counting, radio, and images into our project we consult the [BBC micropython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html).   
 
 ## 5. Design
 
