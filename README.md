@@ -65,29 +65,31 @@ Multiplayer R.P.S.L.S.
 
 ## 2. Team
 
-*Who worked on this project/application?*
-
 Daniela Lujan, Katya Torres
 
 ## 3. Project Objective
-
-*Describe what you set out to achieve. What [micro:bit](https://microbit.org/) capabilities were necessary and/or useful for your implementation.*
 
 At the beginning we set out to achieve a two player rock, paper, scissor, lizard, and spock game but later we decided to make it multiplayer with an embedded score counter and the ability to talk. The [micro:bit](https://microbit.org/guide/features/) capabilities necessary for our implementation were the radio feature, the two programmable buttons, the 25 individually-programmable LEDs, the motion sensor and the pins for external connections.
 
 ## 4. Research
 
-*What sources did you consult (Web, instructor, etc)? Don't plagiarize; give credit where it's due!*
-
 Throughout the process of constructing the project my partner and I consulted the instructor, various internet sources, and the [BBC micropython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html). We consulted the instructor to help us correct some of our code and to ask questions regarding the project itself. We consulted multiple internet sources searching for ideas for the entire project. We found very advanced projects with step by step tutorials such as the [Flappy Bird Game](https://youtu.be/MO-2DiHDZvg) or [an arcade game](https://youtu.be/99Z4KU8yHyc) but we wanted to design a more original idea to get the most experience from the project. Finally, to implement counting, radio, and images into our project we consult the [BBC micropython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html).   
 
 ## 5. Design
 
-*Describe your design briefly and reference any supporting materials in the [assets](assets) forlder.*
+Our game, Multiplayer R. P. S.L.S., is programed to display one of the five weapons: rock, paper, scissors, lizard, or spock through the 25 individually-programmable LEDs when the microbit is shaken. Button a is programed to increase the score of the player by one when it’s pressed, indicating a win. When a player reaches a score of 5 the micro:bit automatically sends a message to all micro:bits in the same channel saying “Game Over”, a random message from a list, and then displays as well as says ”I win” when connected to a pair of headphones or a speaker. Button b is programmed to send a “I quit” message to other micro:bits, verbally say “Thank you for playing,” and break away from the game loop. 
 
 ## 6. Development
 
-*Keep a list of your development activities here, regardless of their success. Reference any supporting materials or external sources.*
+While adding features to our game my partner and I came up with many ideas. A few are listed below along with a brief explanation on whether we succeeded in implementing them to our project.
+1. We managed to implement a working counter to the R.P.S.L.S. by programming button a to increase the players score by one. We used the [rock, paper, scissors micro:bit tutorial](https://youtu.be/Jj4i0d27ZZI) in blocks as a quick guide for adding the counter.
+2. We managed to make our game multiplayer by using the [micro:bit radio feature](https://microbit-challenges.readthedocs.io/en/latest/tutorials/radio.html 
+) to communication between several micro:bits.
+3. We thought about implementing a scoreboard for the game but ran into a significant amount of problems regarding how to effectively capture what we had in mind. Ultimately, we decide to move on to a different feature for the game.
+4. We thought about implementing a timer for our game. We managed to be get a timer working by using the [running_time function](https://microbit-micropython.readthedocs.io/en/latest/tutorials/buttons.html?highlight=time) which returns the time in milliseconds since the device was turned on. In the end, we decided against it because it was what we were looking for the game.
+5. We incorporated speech to our project by getting our micro:bits to talk through a pair of headphones throughout the game.
+The article ["Make Your BBC Micro:Bit Talk Using MicroPython"](https://www.hackster.io/anish78/make-your-bbc-micro-bit-talk-using-micropython-7bdb10) made this final development possible.
+
 
 ## 7. Testing
 
