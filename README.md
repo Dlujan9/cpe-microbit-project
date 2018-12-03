@@ -65,19 +65,18 @@ Multiplayer R.P.S.L.S.
 
 ## 2. Team
 
-Daniela Lujan, Katya Torres
+Daniela Lujan and Katya Torres
 
 ## 3. Project Objective
 
-At the beginning we set out to achieve a two player rock, paper, scissor, lizard, and spock game but later we decided to make it multiplayer with an embedded score counter and the ability to talk. The [micro:bit](https://microbit.org/guide/features/) capabilities necessary for our implementation were the radio feature, the two programmable buttons, the 25 individually-programmable LEDs, the motion sensor and the pins for external connections.
-
+In the beginning, we set out to achieve a two-player rock, paper, scissors, lizard, and spock game but later we decided to make it multiplayer with an embedded score counter and the ability to talk. The [micro:bit](https://microbit.org/guide/features/) capabilities necessary for our implementation were the radio feature, the two programmable buttons, the 25 individually-programmable LEDs, the motion sensor and the pins for external connections.
 ## 4. Research
 
-Throughout the process of constructing the project my partner and I consulted the instructor, various internet sources, and the [BBC micropython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html). We consulted the instructor to help us correct some of our code and to ask questions regarding the project itself. We consulted multiple internet sources searching for ideas for the entire project. We found very advanced projects with step by step tutorials such as the [Flappy Bird Game](https://youtu.be/MO-2DiHDZvg) or [an arcade game](https://youtu.be/99Z4KU8yHyc) but we wanted to design a more original idea to get the most experience from the project. Finally, to implement counting, radio, and images into our project we consult the [BBC micropython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html).   
+Throughout the process of constructing the project, my partner and I consulted the instructor, various internet sources, and the [BBC MicroPython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html). We consulted the instructor to help us correct some of our code and to ask questions regarding the project itself. We consulted multiple internet sources searching for ideas for the entire project. We found very advanced projects with step by step tutorials such as the [Flappy Bird Game](https://youtu.be/MO-2DiHDZvg) or [an arcade game](https://youtu.be/99Z4KU8yHyc) but we wanted to design a more original idea to get the most experience from the project. Finally, to implement counting, radio, and images into our project we consult the [BBC MicroPython reference manual](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html).   
 
 ## 5. Design
 
-Our game, Multiplayer R. P. S.L.S., is programed to display one of the five weapons: rock, paper, scissors, lizard, or spock through the 25 individually-programmable LEDs when the microbit is shaken. Button a is programed to increase the score of the player by one when it’s pressed, indicating a win. When a player reaches a score of 5 the micro:bit automatically sends a message to all micro:bits in the same channel saying “Game Over”, a random message from a list, and then displays as well as says ”I win” when connected to a pair of headphones or a speaker. Button b is programmed to send a “I quit” message to other micro:bits, verbally say “Thank you for playing,” and break away from the game loop. 
+Our game, Multiplayer R. P. S.L.S., is programmed to display one of the five weapons: rock, paper, scissors, lizard, or spock through the 25 individually-programmable LEDs when the micro:bit is shaken. Button a is programmed to increase the score of the player by one when it’s pressed, indicating a win. When a player reaches a score of 5 the micro:bit automatically sends a message to all micro:bits in the same channel saying “Game Over”, a random message from a list, and then displays as well as says ”I win” when connected to a pair of headphones or a speaker. Button b is programmed to send the message “I quit” to other micro:bits, verbally say “Thank you for playing,” and break away from the game loop. 
 
 ## 6. Development
 
@@ -93,12 +92,14 @@ The article ["Make Your BBC Micro:Bit Talk Using MicroPython"](https://www.hacks
 
 ## 7. Testing
 
-*Describe your testing approach. What was successful and what failed?*
+Throughout the development of our project, my teammate and I found out that we couldn’t write the entire code first and then test it out. Doing so would merely cause many errors and we wouldn’t know what was working and what wasn’t. When I was working on making a new feature function such as making the micro:bit speak I would first write a very simplistic code and test it to find out if the micro: bit could indeed talk and be understood. I would then change the code a bit to make it meet my expectations and fix any errors that came up. Finally, I would implement the code to the larger project and test it out again. This process was successful, and therefore, continued throughout the project.
 
 ## 8. Demo
 
-*Briefly record the results of the in-class demo.*
+Despite being nervous about the in-class demo, we managed to answer all of the questions about the four parts of a computer (input, output, storage, and processing) for the demo and we had plenty of time to demonstrate our project. We used a [powerpoint](https://github.com/Dlujan9/cpe-microbit-project/blob/master/assets/Microbit%20Demonstration.pptx) with a few slides to reinforce our main points and didn’t add many words otherwise it would take away from our presentation. At the end of our presentation, I walked around the room to allow my classmates to hear the micro:bit talk. Overall, I think the demo went well each of us spoke around the same amount and kept eye contact with the class.
+
 
 ## 9. Summary
 
-*Summarize your project, from idea to demo. Point out lessons learned. Mention the most important features of the micro:bit that supported your application.*
+The idea for our project was to grow on the game rock, paper, scissors, lizard, spock by adding a counter, making it multiplier, adding speech, and adding a way to declare a winner and loser. The most important features that supported our application were the radio, the two programmable buttons, the 25 individually-programmable LEDs, the motion sensor and the pins for external connections. Without these features, the game would be unable to functions properly and several of the added features would not work. For instance, without the pins the micro:bits would be incapable of speech. The demos were delightful. It was enjoyable to see different projects with their own original ideas and sharing ours as well. Ultimately, I learned that starting a new project is hard and you have to do tons of research to figure out what you want to spend your time on. Afterward, you must create a plan to make sure that when the deadline rolls around you have a functional project to demonstrate. Creating a project is a learning process you have to find out what works and what doesn’t as well as make adjustments along the way.
+
